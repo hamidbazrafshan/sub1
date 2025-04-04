@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 import os
 import subprocess
 from telegram import Update
@@ -8,8 +8,7 @@ import json
 from pydub import AudioSegment
 
 #  ‰Ÿ?„« 
-TOKEN = "7654082878:AAFlsU5xiC3_WBieN1fxqEjTQnFW-nHK4qk"  #  Êò‰ —»«  ŒÊœ —« Ã«?ê“?‰ ò‰?œ
-VOSK_MODEL_PATH = "model-fa"  # ÅÊ‘Â „œ· ›«—”? Vosk
+TOKEN = "7654082878:AAFlsU5xiC3_WBieN1fxqEjTQnFW-nHK4qk"  VOSK_MODEL_PATH = "model-fa"  
 
 def start(update: Update, context: CallbackContext):
     update.message.reply_text("?? ”·«„! ?ò Ê?œ?Ê? ? œﬁ?ﬁÂù«? »›—” ?œ  « “?—‰Ê?” ›«—”? «÷«›Â ò‰„.")
