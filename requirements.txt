@@ -1,0 +1,4 @@
+python-telegram-bot==13.7
+vosk==0.3.45
+ffmpeg-python==0.2.0
+pydub==0.25.1
